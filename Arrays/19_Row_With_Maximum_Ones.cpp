@@ -1,3 +1,30 @@
+/*
+Problem:
+Find the row containing the maximum number of 1s.
+
+Input:
+0 0 1 1
+0 1 1 1
+0 0 0 1
+
+Output:
+Row 1
+
+Approach:
+Count the number of 1s in every row and keep track of the row with
+the maximum count.
+
+Time Complexity:
+O(n × m)
+
+Space Complexity:
+O(1)
+
+Key Insight:
+Check each row independently and update the maximum whenever a larger
+count is found.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
