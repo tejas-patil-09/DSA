@@ -1,3 +1,26 @@
+/*
+Problem:
+Find the second largest distinct element in an array.
+
+Input:
+{5, 3, 8, 1, 9}
+
+Output:
+8
+
+Approach:
+Maintain largest and secondLargest while traversing the array.
+
+Time Complexity:
+O(n)
+
+Space Complexity:
+O(1)
+
+Key Insight:
+When a new largest is found, the previous largest becomes second largest.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
