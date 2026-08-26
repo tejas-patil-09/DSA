@@ -1,3 +1,28 @@
+/*
+Problem:
+Find the union of two sorted arrays without duplicate elements.
+
+Input:
+A = {1, 2, 3, 4}
+B = {2, 3, 5, 6}
+
+Output:
+1 2 3 4 5 6
+
+Approach:
+Use two pointers to traverse both sorted arrays and add the smaller
+element. When both are equal, add it once and move both pointers.
+
+Time Complexity:
+O(n + m)
+
+Space Complexity:
+O(n + m)
+
+Key Insight:
+Sorted order allows both arrays to be merged while removing duplicates.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
