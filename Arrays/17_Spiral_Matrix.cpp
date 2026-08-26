@@ -1,3 +1,29 @@
+/*
+Problem:
+Traverse a matrix in spiral order.
+
+Input:
+1 2 3
+4 5 6
+7 8 9
+
+Output:
+1 2 3 6 9 8 7 4 5
+
+Approach:
+Maintain four boundaries: top, bottom, left and right. Traverse one
+boundary at a time and shrink it after each traversal.
+
+Time Complexity:
+O(n × m)
+
+Space Complexity:
+O(1)
+
+Key Insight:
+The four boundaries define the unvisited portion of the matrix.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
