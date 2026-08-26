@@ -1,3 +1,26 @@
+/*
+Problem:
+Find the element that appears more than n/2 times.
+
+Input:
+{2, 2, 1, 1, 1, 2, 2}
+
+Output:
+2
+
+Approach:
+Use Boyer-Moore Voting Algorithm to maintain a candidate and count.
+
+Time Complexity:
+O(n)
+
+Space Complexity:
+O(1)
+
+Key Insight:
+Different elements cancel each other, while the majority element survives.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
