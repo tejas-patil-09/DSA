@@ -1,3 +1,27 @@
+/*
+Problem:
+Find the maximum number of consecutive 1s in a binary array.
+
+Input:
+{1, 1, 0, 1, 1, 1}
+
+Output:
+3
+
+Approach:
+Maintain the current consecutive-one count. Reset it when a zero appears
+and update the maximum.
+
+Time Complexity:
+O(n)
+
+Space Complexity:
+O(1)
+
+Key Insight:
+A zero breaks the current consecutive sequence.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
